@@ -1,0 +1,37 @@
+#container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    width: 60vw;
+    border: 2px solid black;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #272C37;
+}
+
+#container h2 {
+    align-self: center;
+    margin-top: 0;
+    text-align: center;
+    color: #00ffcd;
+    font-size: 3rem;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20%;
+}
+
+#button-container li {
+    margin: 0 5px;
+}
+
